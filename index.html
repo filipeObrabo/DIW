@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos - PUCMINAS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <style>
+        /* Estilo personalizado para os cards */
+        .card {
+            height: 100%;
+            /* Altura fixa para os cards */
+        }
+
+        /* Estilo para as imagens dentro dos cards */
+        .card-img-top {
+            height: 200px;
+            /* Altura fixa para as imagens */
+            object-fit: cover;
+            /* A imagem será dimensionada para preencher o espaço mantendo a proporção */
+        }
+    </style>
+</head>
+
+<body style="background-color: #ffff;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a style="color:white"class="navbar-brand" href="index.html">Filipe Quaresma</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #0099DD;">
+            <i class="fas fa-bars" style="color: white;"></i> <!-- Ícone do hamburguer aqui -->
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a href="#Esportes" style="color: #ffff;margin-right: 15px;">Seção 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Mapa" style="color: #ffff; margin-right: 15px;">Seção 2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Sobre" style="color: #fff; margin-right: 10px;">Seção 3</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#row" style="color: #fff; margin-right: 10px;">Seção 4</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <Footer>
+     <footer class="footer">
+        <h2 style="margin-top: 20px; margin-left: 50px; margin-bottom: -10px;"> Perfil</h2>
+        <hr style="border-bottom: 3px solid #ff0000;">
+
+        <div class="Creditos">
+            <div class="Sobre">
+                <h4><a name="Sobre"></a></h4>
+                <p>
+                    
+                     Meu nome é Filipe, estou no terceiro período de Engenharia de Computação.
+                     Desde criança, sou fascinado por tecnologia. Na faculdade, explorei desde algoritmos até desenvolvimento de software. 
+                     Agora, estudo inteligência artificial, sistemas embarcados e redes. Fora da sala de aula, participo de projetos para aplicar meus conhecimentos. 
+                     Estou determinado a contribuir para um futuro tecnológico promissor.
+                    <br>
+                    <br>
+                    Este portal foi desenvolvido por Filipe Quaresma Pereira, de 19 anos, graduando em Engenharia da Computação na
+                    Universidade PUC Minas (Coração Eucarístico, Belo Horizonte), no 3º período.
+                </p>
+            </div> 
+
+             <div class="Autoria">
+                <h4>Autoria</h4>
+                <div class="author-info d-flex">
+                    <img src="./Images/fotom.jpeg" alt="Foto do Autor" style="width: 95px; height: 130px; border-radius: 10px;">
+                    <div class="author-details" style="margin-left: 25px;">
+                        <p><strong>Nome:</strong> Filipe Quaresma Pereira</p>
+                        <p><strong>Curso:</strong> Engenharia da Computação</p>
+                        <p><strong>Turma:</strong> 3º período</p>
+
+                        <div class="social-icons d-flex">
+                            <p><strong>Redes Sociais:</strong></p>
+                            <a href="https://www.instagram.com/filipeqp_/" style="margin-right: 10px; margin-left: 10px"><img src="./Images/instagram.png"
+                                    style="width:35px; height: 35px;" alt="Instagram"></a>
+                            <a href="#" style="margin-right: 10px;"><img src="./Images/facebook.png"
+                                    style="width:35px; height: 35px;" alt="Facebook"></a>
+                            <a href="https://www.linkedin.com/in/filipe-quaresma-pereira-489a78278/" style="margin-right: 10px;"><img src="./Images/linkedin.png"
+                                    style="width:35px; height: 35px;" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Grade com Álbuns -->
+    <h2 style="margin-top: 20px; margin-left: 40px; margin-bottom: -10px;"> <a name="Esportes">Repositórios</a></h2>
+    <hr style="border-bottom: 3px solid #ff0000;">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-3 mb-4" >
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/fotojose.jpeg" class="card-img-top" alt="Album 1" >
+                    <div class="card-body">
+                        <h5 class="card-title">José Alves Souza</h5>
+                        <p class="card-text">Nome: José Alves Souza. Idade: 21 anos. Local: São Paulo, Brasil. José Alves Souza estuda TI em São Paulo, destacando-se em programação. Além dos estudos, gosta de futebol e videogames. Ele aspira a contribuir com soluções inovadoras na área de tecnologia.</p>
+                        <a href="repo-jose.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/mulhertii.jpg" class="card-img-top" alt="Album 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Joaquina Pereira Rocha</h5>
+                        <p class="card-text">Nome: Joaquina Pereira Rocha. Idade: 22 anos. Local: Belo Horizonte, Brasil. Estudante de TI, Ana se destaca por sua criatividade e habilidades em programação. Além dos estudos, ela adora arte e gastronomia. Seu objetivo é inovar na área de tecnologia, combinando sua paixão pela arte com soluções digitais disruptivas.
+                        </p>
+                        <a href="repo-Joaquina.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/imagem2.jpg" class="card-img-top" alt="Album 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedro Fernando Luis</h5>
+                        <p class="card-text">Nome: Pedro Fernando Luis. Idade: 24 anos. Local: Porto Alegre, Brasil. Pedro Fernando Luis, estudante de TI, é reconhecido por sua habilidade em códigos e análise de sistemas. Além dos estudos, é um ávido praticante de esportes radicais e voluntário em projetos comunitários. Seu desejo é transformar o mundo digital com soluções tecnológicas que promovam a inclusão social e a sustentabilidade.</p>
+                        <a href="repo-Pedro.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img3.jpg" class="card-img-top" alt="Album 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Gabriel Gomes José</h5>
+                        <p class="card-text">Nome: Gabriel Gomes José. Idade: 27 anos. Local: Florianópolis, Brasil. Gabriel Gomes José é um estudante de TI apaixonado por inteligência artificial e desenvolvimento de aplicativos móveis. Nos intervalos dos estudos, ele se aventura na cozinha, explorando novas receitas gourmet, e é um entusiasta da música, tocando violão em sua banda amadora. Seu objetivo é criar soluções tecnológicas que simplifiquem a vida das pessoas e inspirem a criatividade.</p>
+                        <a href="repo-Gabriel.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 5 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img333.jpg" class="card-img-top" alt="Album 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Rafael Silva Amaral</h5>
+                        <p class="card-text">Nome: Rafael Silva Amaral. Idade: 23 anos. Local: São Paulo, Brasil. Rafael Silva Amaral é um estudante de TI com foco em análise de dados e machine learning. Nos momentos de lazer, ele se dedica ao mundo dos esportes, sendo um entusiasta de corridas de rua e escaladas. Além disso, é um ávido leitor de ficção científica e voluntário em projetos sociais. Seu objetivo é aplicar seus conhecimentos em tecnologia para resolver problemas reais e impactar positivamente a sociedade.
+
+
+                        </p>
+                        <a href="repo-Rafael.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img18.jpg" class="card-img-top" alt="Album 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Alcione Quaresma</h5>
+                        <p class="card-text">Nome: Alcione Quaresma. Idade: 24 anos. Local: Rio de Janeiro, Brasil. Alcione Quaresma é uma estudante de TI com interesse em desenvolvimento web e design de interfaces. Nas horas vagas, ela se dedica à arte urbana, pintando murais pela cidade, e é uma entusiasta de trilhas ecológicas. Além disso, é uma defensora dos direitos das mulheres na tecnologia e participa ativamente de grupos de apoio. Seu objetivo é utilizar a tecnologia como meio de expressão artística e promover a inclusão de gênero no campo da TI..</p>
+                        <a href="repo-Alcione.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img5.jpg" class="card-img-top" alt="Album 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Caio Martins</h5>
+                        <p class="card-text">Nome: Caio Martins. Idade: 26 anos. Local: Recife, Brasil. Caio Martins é um estudante de TI com foco em desenvolvimento front-end e design de interfaces. Nos momentos de folga, ele se aventura na fotografia urbana, capturando a essência das ruas de sua cidade, e é um aficionado por música, tocando guitarra em uma banda local. Além disso, ele é voluntário em workshops de programação para jovens de comunidades carentes, buscando inspirar a próxima geração de desenvolvedores. Seu objetivo é criar experiências digitais cativantes e acessíveis, que tornem a web um lugar mais interativo e inclusivo para todos.</p>
+                        <a href="repo-Caio.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img6.jpg" class="card-img-top" alt="Album 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Mario Rodrigues</h5>
+                        <p class="card-text">Nome: Mario Rodrigues. Idade: 28 anos. Local: Brasília, Brasil. Mario Rodrigues é um estudante de TI com especialização em hardware e sistemas embarcados. Nos momentos de lazer, ele se dedica à prática de esportes radicais, como escalada e motocross, e é um entusiasta de tecnologia antiga, colecionando e restaurando computadores e consoles vintage. Além disso, ele participa de competições de robótica, onde aplica seus conhecimentos em hardware para criar soluções inovadoras. Seu objetivo é contribuir para o avanço da tecnologia de hardware, desenvolvendo dispositivos eficientes e sustentáveis que melhorem a vida das pessoas e impulsionem o progresso da sociedade..</p>
+                        <a href="repo-Mario.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Tela Principal (Home Page) -->
+     <h2 style="margin-top: 20px; margin-left: 50px; margin-bottom: -10px;"> Conteúdo Sugerido</h2>
+    <hr style="border-bottom: 3px solid #ff0000;">
+    <div class="container mt-5 w-75 ">
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselIndicators" data-slide-to="4"></li>
+                
+
+            </ol>
+            <div class="carousel-inner" style="border-radius: 10px;">
+                <div class="carousel-item active">
+                    <img src="./Images/img10.jpg" class="d-block w-100" alt="Image 1" style="max-height: 550px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/img8.jpg" class="d-block w-100" alt="Image 2"
+                        style="max-height: 550px;"> 
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/img9.jpg" class="d-block w-100" alt="Image 3" style="max-height: 550px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/img_proj.jpg" class="d-block w-100" alt="Image 4" style="max-height: 550px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/img_proj2.jpg" class="d-block w-100" alt="Image 5" style="max-height: 550px;">
+                </div4>
+                
+                
+                
+            </div>
+            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <h2 style="margin-top: 20px; margin-left: 40px; margin-bottom: -10px;"> <a name="Esportes">Colegas De Trabalho</a></h2>
+    <hr style="border-bottom: 3px solid #ff0000;">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-3 mb-4" >
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img11.jpeg" class="card-img-top" alt="Album 1" >
+                    <div class="card-body">
+                        <h5 class="card-title">Colega 1</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img13.jpeg" class="card-img-top" alt="Album 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Colega 2</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img16.jpg" class="card-img-top" alt="Album 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Colega 3</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <img src="./Images/img15.jpeg" class="card-img-top" alt="Album 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Colega 4</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <h2 style="margin-top: 20px; margin-left: 50px; margin-bottom: -10px;"> Responsável pelo site</h2>
+        <hr style="border-bottom: 3px solid #ff0000;">
+    <div class="Creditos">
+        <div class="Sobre">
+            <h4><a name="Sobre"></a></h4>
+            <p>
+                Este portal foi desenvolvido por Filipe Quaresma Pereira, de 19 anos, graduando em Engenharia da Computação na
+                Universidade PUC Minas (Coração Eucarístico, Belo Horizonte), no 3º período.
+            </p>
+        </div> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>     
+
+</body>
+
+</html>
